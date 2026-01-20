@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+
+.container {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.item {
+  background-color: steelblue;
+  color: white;
+  padding: 20px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+/* Apply Grid only if supported */
+@supports (display: grid) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .item {
+    margin-bottom: 0;
+  }
+}
