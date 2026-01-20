@@ -3,11 +3,16 @@ body {
   padding: 40px;
 }
 
+h1, h2 {
+  text-align: center;
+}
+
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; /* TASK 2 requirement */
   border: 2px solid black;
   padding: 20px;
+  gap: 15px;
 }
 
 .item {
@@ -15,5 +20,6 @@ body {
   color: white;
   padding: 20px;
   border: 1px solid black;
-  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
 }

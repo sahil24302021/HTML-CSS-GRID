@@ -3,10 +3,14 @@ body {
   padding: 40px;
 }
 
+h1, h2 {
+  text-align: center;
+}
+
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr; /* Task 5 context */
+  gap: 20px;                          /* MAIN CONCEPT */
   border: 2px solid black;
   padding: 20px;
 }
@@ -16,5 +20,6 @@ body {
   color: white;
   padding: 20px;
   border: 1px solid black;
-  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
 }

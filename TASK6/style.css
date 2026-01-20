@@ -3,9 +3,13 @@ body {
   padding: 40px;
 }
 
+h1, h2 {
+  text-align: center;
+}
+
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
   gap: 20px;
   border: 2px solid black;
   padding: 20px;
@@ -16,9 +20,11 @@ body {
   color: white;
   padding: 20px;
   border: 1px solid black;
-  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
+/* Column span example */
 .span {
-  grid-column: 1 / 3;
+  grid-column: 1 / 3; /* spans two columns */
 }
